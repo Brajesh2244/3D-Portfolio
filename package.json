@@ -4,6 +4,8 @@
     "scripts": {
         "start": "node server/index.ts",
         "build": "webpack --config ./bundler/webpack.prod.js",
+        "build:os": "npm --prefix inner-site run build && powershell -Command \"if (!(Test-Path static/os)) { New-Item -ItemType Directory -Path static/os }; Copy-Item -Recurse -Force inner-site/build/* static/os/\"",
+        "build:all": "npm run build:os && npm run build",
         "dev": "webpack serve --config ./bundler/webpack.dev.js"
     },
     "dependencies": {
