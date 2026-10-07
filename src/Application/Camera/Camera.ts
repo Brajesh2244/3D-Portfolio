@@ -67,6 +67,13 @@ export default class Camera extends EventEmitter {
         };
 
         document.addEventListener('mousedown', (event) => {
+            // @ts-ignore
+            if (event.inComputer) {
+                if (this.currentKeyframe !== CameraKey.MONITOR) {
+                    this.trigger('enterMonitor');
+                }
+                return;
+            }
             event.preventDefault();
             // @ts-ignore
             if (event.target.id === 'prevent-click') return;

@@ -187,9 +187,9 @@ export default class MonitorScreen extends EventEmitter {
         if (urlParams.has('dev')) {
             iframe.src = 'http://localhost:3000/';
         } else if (urlParams.has('os')) {
-            iframe.src = urlParams.get('os') || './os/index.html';
+            iframe.src = urlParams.get('os') || '/os/index.html';
         } else {
-            iframe.src = './os/index.html';
+            iframe.src = '/os/index.html';
         }
         iframe.style.width = this.screenSize.width + 'px';
         iframe.style.height = this.screenSize.height + 'px';
@@ -199,7 +199,7 @@ export default class MonitorScreen extends EventEmitter {
         iframe.className = 'jitter';
         iframe.id = 'computer-screen';
         iframe.frameBorder = '0';
-        iframe.title = 'HeffernanOS';
+        iframe.title = 'BrajeshOS';
 
         // Add iframe to container
         container.appendChild(iframe);

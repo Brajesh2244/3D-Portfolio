@@ -8,3 +8,5 @@ package-lock.json
 public/
 .vercel
 .env*
+
+.chrome-temp
