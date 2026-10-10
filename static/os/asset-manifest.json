@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "./static/css/main.22d0a6ca.css",
-    "main.js": "./static/js/main.cb1fb874.js",
+    "main.js": "./static/js/main.63dfaa7f.js",
     "static/js/787.cb3bc2ea.chunk.js": "./static/js/787.cb3bc2ea.chunk.js",
-    "static/media/saga.mp4": "./static/media/saga.64fb7e405cdad323c668.mp4",
-    "static/media/scroll.mp4": "./static/media/scroll.c813ed50d6d7bb41417a.mp4",
+    "static/media/ecommerce.mp4": "./static/media/ecommerce.903ac666e965d1446d04.mp4",
+    "static/media/foodiehub.mp4": "./static/media/foodiehub.f5ab39c95b0f5c804457.mp4",
     "static/media/computer.mp4": "./static/media/computer.f6d03fdb3cc6238c1dd0.mp4",
     "static/media/MSSansSerif.ttf": "./static/media/MSSansSerif.aa14e7b110864a3c2e08.ttf",
     "static/media/workingAtComputer.jpg": "./static/media/workingAtComputer.f964cf4109fc718e99c3.jpg",
@@ -17,11 +17,11 @@
     "static/media/Millennium-Bold.ttf": "./static/media/Millennium-Bold.cd5e3be832ebd008c852.ttf",
     "index.html": "./index.html",
     "main.22d0a6ca.css.map": "./static/css/main.22d0a6ca.css.map",
-    "main.cb1fb874.js.map": "./static/js/main.cb1fb874.js.map",
+    "main.63dfaa7f.js.map": "./static/js/main.63dfaa7f.js.map",
     "787.cb3bc2ea.chunk.js.map": "./static/js/787.cb3bc2ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22d0a6ca.css",
-    "static/js/main.cb1fb874.js"
+    "static/js/main.63dfaa7f.js"
   ]
 }

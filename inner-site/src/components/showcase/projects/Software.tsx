@@ -1,10 +1,10 @@
 import React from 'react';
 // @ts-ignore
-import saga from '../../../assets/pictures/projects/software/saga.mp4';
+import ecommerce from '../../../assets/pictures/projects/software/ecommerce.mp4';
 // @ts-ignore
 import computer from '../../../assets/pictures/projects/software/computer.mp4';
 // @ts-ignore
-import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
+import foodiehub from '../../../assets/pictures/projects/software/foodiehub.mp4';
 import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
 
@@ -71,11 +71,11 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={saga} />
+                    <VideoAsset src={ecommerce} />
                     <div style={styles.caption}>
                         <p>
                             <sub>
-                                <b>Figure 2: </b> Product browsing, dynamic filtering, and interactive cart workflow.
+                                <b>Figure 2: </b> E-Commerce platform walkthrough & demo.
                             </sub>
                         </p>
                     </div>
@@ -112,10 +112,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={scroll} />
+                    <VideoAsset src={foodiehub} />
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 3:</b> Real-time restaurant discovery, live status transitions, and order pipeline.
+                            <b>Figure 3:</b> FoodieHub food delivery application live demo.
                         </sub>
                     </p>
                 </div>

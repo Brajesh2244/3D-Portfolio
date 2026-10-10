@@ -26,6 +26,8 @@ const VideoAsset: React.FC<VideoAssetProps> = ({ src }) => {
                 autoPlay
                 muted
                 loop
+                controls
+                playsInline
                 disablePictureInPicture
             />
         </div>
